@@ -1,4 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Gilroy:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+}
+
+/* header */
+.header {
+  margin-top: 40px;
+}
+
+.logo_text {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+}
+
+.logo_text span {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #f25822;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Gilroy-Medium", sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.nav__link--active {
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #f25822;
+}
+
+/* Главный экран */
+.top {
+  padding-top: 84px;
+}
+
+.top__info_h1 {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  color: #000;
+}
+
+.top__info_p {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #888;
+}
+
+.top__info_buttons {
+  margin-top: 37px;
+}
+
+.top__info_button {
+  width: 140px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+  background: #f25822;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+}
+
+.top__info_link {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #aaa;
+}
+
+/* Логотипы */
+
+.logos {
+  margin-top: 162px;
 }
